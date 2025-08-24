@@ -1,0 +1,24 @@
+"# Node.js specific ignores
+node_modules/
+dist/
+.env
+.env.local
+*.log
+
+# Build artifacts
+*.bak
+*.tmp
+*.orig
+
+# IDE specific
+.vscode/
+*.swp
+*.swo
+
+# Dependency directories
+/bower_components/
+/jspm_packages/
+
+# Optional: Exclude OS generated files
+.DS_Store
+Thumbs.db"
